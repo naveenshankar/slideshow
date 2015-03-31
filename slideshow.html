@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>
+</title>
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="slideShowStyles.css">
+</head>
+<body>
+	<div class="mainContainer">
+		<div class="health-summary">
+		</div>
+		<div class="sliderControls">
+			<div class="slideInformation">
+				<i class="fa fa-info"></i>
+			</div>
+			<div class="settings">
+				<i class="fa fa-cog"></i>
+			</div>
+		</div>
+		<div class="slideshow">
+		  <ul class="slides" id="slides">
+		    <!-- li class="active">
+		    	<div class="prevButton">
+		    		<i class="fa fa-chevron-left"></i>
+		    	</div>
+		    	<div class="imageHolder">
+		      		<img src="http://www.healthline.com/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_1.jpg" alt="healthline">
+		     	</div>
+				<div class="nextButton">
+					<i class="fa fa-chevron-right"></i>
+				</div>
+		    </li>
+		    <li class="inactive">
+		    	<div class="prevButton">
+		    		<i class="fa fa-chevron-left"></i>
+		    	</div>
+		    	<div class="imageHolder">
+		      		<img src="http://www.healthline.com/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_2.jpg" alt="healthline">
+		     	</div>
+				<div class="nextButton">
+					<i class="fa fa-chevron-right"></i>
+				</div>
+		    </li -->
+
+		    <script id="slideTemplate" type="text/x-handlebars-template">
+		    	{{#each this}}
+				    <li class="inactive">
+				    	<div class="prevButton">
+				    		<i class="fa fa-chevron-left"></i>
+				    	</div>
+				    	<div class="imageHolder">
+				      		<img src="http://www.healthline.com{{image/imageUrl}}" alt="healthline">
+				     	</div>
+						<div class="nextButton">
+							<i class="fa fa-chevron-right"></i>
+						</div>
+				    </li>
+			    {{/each}}
+		    </script>
+
+		  </ul><div class="slideDescription"></div>
+		</div>
+	</div>
+	<script type="text/javascript"  src="jquery-1.9.1.js"></script>
+	<script type="text/javascript"  src="handlebars.js"></script>
+	<script type="text/javascript"  src="slideShowMock.json"></script>
+	<script type="text/javascript"  src="slideShowUtils.js"></script>
+	<script type="text/javascript" defer src="slideShowMain.js"></script>
+</body>
+</html>
