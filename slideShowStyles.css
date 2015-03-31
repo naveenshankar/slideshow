@@ -1,0 +1,104 @@
+.mainContainer {
+	width:1036px;
+	height:auto;
+	margin:auto;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-color:#A39E8F;
+}
+.mainContainer .health-summary{
+	text-align: center;
+	margin: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+.mainContainer .sliderControls{
+	margin: auto;
+	width: 800px;
+	height: 45px;
+	background-color: #877BC0;
+}
+.mainContainer .sliderControls .settings{
+	float:right;
+	width: 50px;
+	height: 100%;
+}
+.mainContainer .sliderControls .slideInformation{
+	float:left;
+	width: 100px;
+	height: 100%;
+}
+.mainContainer .slideshow{
+	height: 400px;
+	width: 800px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.mainContainer li{
+	height:100%;
+}
+.mainContainer .slides{
+	width: 50%;
+	margin: auto;
+	list-style-type: none;
+	padding:0px;
+	height:100%;
+	display:inline-block;
+}
+.mainContainer .slides .active{
+	display:block;
+}
+.mainContainer .slides .inactive{
+	display:none;
+}
+.mainContainer .slides .imageHolder{
+	position:absolute;
+	z-index: 99;
+}
+.mainContainer .slideDescription{
+	width: 50%;
+	display: inline-block;
+	background-color: #1E1F28;
+	height: 100%;
+	box-shadow: 0px 0px 5px 10px #A0A9BE inset;
+}
+.mainContainer .slides img{
+	width: 400px;
+	height:400px;
+}
+.mainContainer .slides .prevButton,.mainContainer .slides .nextButton{
+	width: 80px;
+	height: 400px;
+	position: absolute;
+	z-index:101;
+	color:gray;
+}
+.mainContainer .slides .nextButton{
+	margin-left:320px;
+}
+.mainContainer .slides .prevButton:hover,.mainContainer .slides .nextButton:hover{
+	opacity: 0.4;
+	background-color:black;
+	cursor:pointer;
+	color:green;
+}
+
+/* OVERRIDES FOR FONT-AWESOME ICONS  */
+.fa-info,.fa-cog {
+	margin-top: 10px;
+	margin-left: 20px;
+	color:black;
+}
+.fa-cog:hover {
+	color:white;
+	cursor:pointer;
+}
+.fa-chevron-left,.fa-chevron-right{
+	z-index:100;
+	position:absolute;
+	vertical-align: middle;
+	top:45%;
+	left:30%;
+	font-size:4em;
+	opacity:0.5;
+}
