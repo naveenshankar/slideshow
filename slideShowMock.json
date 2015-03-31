@@ -1,0 +1,297 @@
+var mockResponse = {  
+   "meta":{  
+      "code":200,
+      "status":"Success",
+      "numResults":1
+   },
+   "data":[  
+      {  
+         "authfull":[  
+            "Leigh Reason"
+         ],
+         "contentid":"17103",
+         "contenttype":"slideshow",
+         "imuids":[  
+            "8528011",
+            "8485409"
+         ],
+         "lang":[  
+            "en"
+         ],
+         "nid":"17103",
+         "reviewdate":"0",
+         "summary":"Back pain affects nearly 85 percent of Americans at some point; try one of these seven natural ways to alleviate the hurt.",
+         "teaserimagepath":"http://www.healthline.com/hlcmsresource/images/learning_center/Back_Pain/110x90_Back_Pain_SS.jpg",
+         "title":"Back Pain? 7 Simple Fixes",
+         "url":"7-ways-lessen-your-back-pain",
+         "slides":[  
+            {  
+               "revisionDate":1344267166000,
+               "body":"\u003Cp\u003EBack pain, especially lower back pain, is an ailment that will affect more than 85 percent of Americans at some point. For those that suffer from chronic back pain, looking for natural ways to alleviate pain is much preferable to living on pain meds. Often, these painkillers don\u2019t offer much relief and only treat the symptoms.\u0026nbsp;\u003Cspan style\u003D\"font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px;\"\u003EChange  isn't easy, but these simple changes could spell back pain relief. Are  the daily activities you partake in causing your back pain to get  worse?\u0026nbsp;\u003C/span\u003E\u003C/p\u003E",
+               "title":"Get Relief! Home Remedies For Back Pain",
+               "openCallout":null,
+               "freeformHeadContent":"",
+               "author":"Leigh Reason",
+               "copyright":"",
+               "image":{  
+                  "imageHeight":285,
+                  "imageAlt":"",
+                  "imageWidth":285,
+                  "imageTitle":"",
+                  "imageUrl":"/hlcmsresource/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_1.jpg"
+               },
+               "htmlTitle":"",
+               "overlayNid":"",
+               "galleryNid":"",
+               "cfUrl":"health-slideshow/7-ways-lessen-your-back-pain",
+               "htmlDescTag":"",
+               "thumbnail":{  
+                  "imageHeight":0,
+                  "imageAlt":"",
+                  "imageWidth":0,
+                  "imageTitle":"",
+                  "imageUrl":""
+               }
+            },
+            {  
+               "revisionDate":1338792345000,
+               "body":"\u003Cp\u003EIt\u2019s not a big surprise that slouching in front of a video game is bad for your back -- and it starts early. A 2009 study of more than 30,000 Scandinavian adolescents found that those who spent large amounts of time doing screen-based sedentary activities, such as video game playing, computer time and TV viewing, had higher rates of physical ailments, most notably backache and headache.\u0026nbsp;\u003C/p\u003E",
+               "title":"Step Away From the Game",
+               "openCallout":null,
+               "freeformHeadContent":"",
+               "author":"Leigh Reason",
+               "copyright":"",
+               "image":{  
+                  "imageHeight":285,
+                  "imageAlt":"",
+                  "imageWidth":285,
+                  "imageTitle":"",
+                  "imageUrl":"/hlcmsresource/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_3.jpg"
+               },
+               "htmlTitle":"",
+               "overlayNid":"",
+               "galleryNid":"",
+               "cfUrl":"health-slideshow/7-ways-lessen-your-back-pain/step-away-game",
+               "htmlDescTag":"",
+               "thumbnail":{  
+                  "imageHeight":0,
+                  "imageAlt":"",
+                  "imageWidth":0,
+                  "imageTitle":"",
+                  "imageUrl":""
+               }
+            },
+            {  
+               "revisionDate":1338792550000,
+               "body":"\u003Cp\u003EExtra weight means extra stress on your body, which leads to back pain. For those that carry weight in the belly region, the strain on the back only increases. Find an eating plan that works for you, and get your BMI under control.\u003C/p\u003E",
+               "title":"Shed the Pounds",
+               "openCallout":null,
+               "freeformHeadContent":"",
+               "author":"Leigh Reason",
+               "copyright":"",
+               "image":{  
+                  "imageHeight":285,
+                  "imageAlt":"",
+                  "imageWidth":285,
+                  "imageTitle":"",
+                  "imageUrl":"/hlcmsresource/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_6.jpg"
+               },
+               "htmlTitle":"",
+               "overlayNid":"",
+               "galleryNid":"",
+               "cfUrl":"health-slideshow/7-ways-lessen-your-back-pain/shed-pounds",
+               "htmlDescTag":"",
+               "thumbnail":{  
+                  "imageHeight":0,
+                  "imageAlt":"",
+                  "imageWidth":0,
+                  "imageTitle":"",
+                  "imageUrl":""
+               }
+            },
+            {  
+               "revisionDate":1338793595000,
+               "body":"\u003Cp\u003EOften, when your back is in pain, the last thing you want to do is exercise. But certain exercise regimens can greatly reduce back pain. Swimming and yoga are low-impact and will also help in the goal of a lower BMI. A study from Norwegian University of Science and Technology looked at 30,000 men and women over an 11-year period and found that moderate exercise (two to three hours per week) reduced back pain by 20 percent overall.\u003C/p\u003E",
+               "title":"Get Some Low-Impact Exercise",
+               "openCallout":null,
+               "freeformHeadContent":"",
+               "author":"Leigh Reason",
+               "copyright":"",
+               "image":{  
+                  "imageHeight":285,
+                  "imageAlt":"",
+                  "imageWidth":285,
+                  "imageTitle":"",
+                  "imageUrl":"/hlcmsresource/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_5.jpg"
+               },
+               "htmlTitle":"",
+               "overlayNid":"",
+               "galleryNid":"",
+               "cfUrl":"health-slideshow/7-ways-lessen-your-back-pain/get-some-low-impact-exercise",
+               "htmlDescTag":"",
+               "thumbnail":{  
+                  "imageHeight":0,
+                  "imageAlt":"",
+                  "imageWidth":0,
+                  "imageTitle":"",
+                  "imageUrl":""
+               }
+            },
+            {  
+               "revisionDate":1338826443000,
+               "body":"\u003Cp\u003EMany Americans spend their days at a desk, hunched over a computer. If you don\u2019t practice proper ergonomics at work, you can almost guarantee back, neck and shoulder pain. Make sure your monitor is directly in front of you, at least 20 inches away; keep your mouse close to your keyboard; keep your hands, wrists and forearms straight and as parallel to the floor as possible; make sure your shoulders are relaxed, and your upper arms hang down in a natural way. Check out the\u0026nbsp;\u003Ca href\u003D\"http://www.osha.gov/SLTC/etools/computerworkstations/index.html\"\u003EU.S. Occupational Safety \u0026amp; Health Administration\u2019s tips\u003C/a\u003E for proper desk set-up for maximum ergonomics.\u003C/p\u003E",
+               "title":"Office Ergonomics",
+               "openCallout":null,
+               "freeformHeadContent":"",
+               "author":"Leigh Reason",
+               "copyright":"",
+               "image":{  
+                  "imageHeight":285,
+                  "imageAlt":"",
+                  "imageWidth":285,
+                  "imageTitle":"",
+                  "imageUrl":"/hlcmsresource/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_2_0.jpg"
+               },
+               "htmlTitle":"",
+               "overlayNid":"",
+               "galleryNid":"",
+               "cfUrl":"health-slideshow/7-ways-lessen-your-back-pain/office-ergonomics",
+               "htmlDescTag":"",
+               "thumbnail":{  
+                  "imageHeight":0,
+                  "imageAlt":"",
+                  "imageWidth":0,
+                  "imageTitle":"",
+                  "imageUrl":""
+               }
+            },
+            {  
+               "revisionDate":1338829288000,
+               "body":"\u003Cp\u003EYou need to keep in mind proper spine alignment not just when watching TV or sitting at your desk at work. The position you sleep in can go a long way in keeping lower back pain at bay. The best position is on your side, in a relaxed fetal position with your knees bent. Place a pillow between your legs, so that as you sleep, the top leg does not slide forward, causing a twist in your lower back. Consider also using a small pillow under your neck, so that your spine stays in alignment as much as possible.\u003C/p\u003E",
+               "title":"Sleep Well",
+               "openCallout":null,
+               "freeformHeadContent":"",
+               "author":"Leigh Reason",
+               "copyright":"",
+               "image":{  
+                  "imageHeight":285,
+                  "imageAlt":"",
+                  "imageWidth":285,
+                  "imageTitle":"",
+                  "imageUrl":"/hlcmsresource/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_7.jpg"
+               },
+               "htmlTitle":"",
+               "overlayNid":"",
+               "galleryNid":"",
+               "cfUrl":"health-slideshow/7-ways-lessen-your-back-pain/stand-straight",
+               "htmlDescTag":"",
+               "thumbnail":{  
+                  "imageHeight":0,
+                  "imageAlt":"",
+                  "imageWidth":0,
+                  "imageTitle":"",
+                  "imageUrl":""
+               }
+            },
+            {  
+               "revisionDate":1338865991000,
+               "body":"There is promising research on the effects of natural remedies such as ginger to reduce inflammation associated with pain. Ginger is a natural anti-inflammatory and can be especially helpful after you\u2019ve performed a strenuous activity. Simmer fresh ginger root slices in hot water for about 30 minutes, and enjoy as a cup of tea. Capsaicin, the active in ingredient in hot chili peppers, has also shown promise in reducing pain, and is available in both topical cream and oral supplement form.",
+               "title":"Herbal Remedies",
+               "openCallout":null,
+               "freeformHeadContent":"",
+               "author":"Leigh Reason",
+               "copyright":"",
+               "image":{  
+                  "imageHeight":285,
+                  "imageAlt":"",
+                  "imageWidth":285,
+                  "imageTitle":"",
+                  "imageUrl":"/hlcmsresource/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_8.jpg"
+               },
+               "htmlTitle":"",
+               "overlayNid":"",
+               "galleryNid":"",
+               "cfUrl":"health-slideshow/7-ways-lessen-your-back-pain/herbal-remedies",
+               "htmlDescTag":"",
+               "thumbnail":{  
+                  "imageHeight":0,
+                  "imageAlt":"",
+                  "imageWidth":0,
+                  "imageTitle":"",
+                  "imageUrl":""
+               }
+            },
+            {  
+               "revisionDate":1338830762000,
+               "body":"\u003Cp\u003EBefore you roll your eyes, and dismiss this idea, remember that the mind is a powerful thing. A small, recent study at the University of Manchester found that those who meditated when exposed to a physically painful laser had much higher pain thresholds. It\u2019s still up for debate whether meditation\u2019s effect is more of a placebo effect than anything, but even if it doesn\u2019t necessarily take away the pain, it allows the patient to focus the mind elsewhere during acute pain. And a little alone time never hurt anyone.\u003C/p\u003E",
+               "title":"Try Meditation",
+               "openCallout":null,
+               "freeformHeadContent":"",
+               "author":"Leigh Reason",
+               "copyright":"",
+               "image":{  
+                  "imageHeight":285,
+                  "imageAlt":"",
+                  "imageWidth":285,
+                  "imageTitle":"",
+                  "imageUrl":"/hlcmsresource/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_4.jpg"
+               },
+               "htmlTitle":"",
+               "overlayNid":"",
+               "galleryNid":"",
+               "cfUrl":"health-slideshow/7-ways-lessen-your-back-pain/try-meditation",
+               "htmlDescTag":"",
+               "thumbnail":{  
+                  "imageHeight":0,
+                  "imageAlt":"",
+                  "imageWidth":0,
+                  "imageTitle":"",
+                  "imageUrl":""
+               }
+            },
+            {  
+               "revisionDate":1353968298000,
+               "body":"\u003Cp\u003ERemember to focus on your small daily movements, such as how you pick up objects (always bend at the knees), how you carry your purse or backpack (make sure it's not too heavy and wear your backpack on both shoulders), invest in a new mattress and/or pillows that are firm and prevent your spine to curve, and add some gentle stretching to your morning routine.\u0026nbsp;\u003C/p\u003E",
+               "title":"It's the Little Things",
+               "openCallout":null,
+               "freeformHeadContent":"",
+               "author":"Leigh Reason",
+               "copyright":"",
+               "image":{  
+                  "imageHeight":285,
+                  "imageAlt":"",
+                  "imageWidth":285,
+                  "imageTitle":"",
+                  "imageUrl":"/hlcmsresource/images/slideshow/back_pain_home_remedies/285-285_couple-backpacks-back-pain.jpg"
+               },
+               "htmlTitle":"",
+               "overlayNid":"",
+               "galleryNid":"",
+               "cfUrl":"health-slideshow/back-pain-7-simple-fixes/its-little-things",
+               "htmlDescTag":"",
+               "thumbnail":{  
+                  "imageHeight":0,
+                  "imageAlt":"",
+                  "imageWidth":0,
+                  "imageTitle":"",
+                  "imageUrl":""
+               }
+            }
+         ],
+         "sources":"",
+         "body":" \u003Cp\u003EBack pain, especially lower back pain, is an ailment that will affect more than 85 percent of Americans at some point. For those that suffer from chronic back pain, looking for natural ways to alleviate pain is much preferable to living on pain meds. Often, these painkillers don\u2019t offer much relief and only treat the symptoms.\u0026nbsp;\u003Cspan style\u003D\"font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px;\"\u003EChange  isn't easy, but these simple changes could spell back pain relief. Are  the daily activities you partake in causing your back pain to get  worse?\u0026nbsp;\u003C/span\u003E\u003C/p\u003E \u003Cp\u003EIt\u2019s not a big surprise that slouching in front of a video game is bad for your back -- and it starts early. A 2009 study of more than 30,000 Scandinavian adolescents found that those who spent large amounts of time doing screen-based sedentary activities, such as video game playing, computer time and TV viewing, had higher rates of physical ailments, most notably backache and headache.\u0026nbsp;\u003C/p\u003E \u003Cp\u003EExtra weight means extra stress on your body, which leads to back pain. For those that carry weight in the belly region, the strain on the back only increases. Find an eating plan that works for you, and get your BMI under control.\u003C/p\u003E \u003Cp\u003EOften, when your back is in pain, the last thing you want to do is exercise. But certain exercise regimens can greatly reduce back pain. Swimming and yoga are low-impact and will also help in the goal of a lower BMI. A study from Norwegian University of Science and Technology looked at 30,000 men and women over an 11-year period and found that moderate exercise (two to three hours per week) reduced back pain by 20 percent overall.\u003C/p\u003E \u003Cp\u003EMany Americans spend their days at a desk, hunched over a computer. If you don\u2019t practice proper ergonomics at work, you can almost guarantee back, neck and shoulder pain. Make sure your monitor is directly in front of you, at least 20 inches away; keep your mouse close to your keyboard; keep your hands, wrists and forearms straight and as parallel to the floor as possible; make sure your shoulders are relaxed, and your upper arms hang down in a natural way. Check out the\u0026nbsp;\u003Ca href\u003D\"http://www.osha.gov/SLTC/etools/computerworkstations/index.html\"\u003EU.S. Occupational Safety \u0026amp; Health Administration\u2019s tips\u003C/a\u003E for proper desk set-up for maximum ergonomics.\u003C/p\u003E \u003Cp\u003EYou need to keep in mind proper spine alignment not just when watching TV or sitting at your desk at work. The position you sleep in can go a long way in keeping lower back pain at bay. The best position is on your side, in a relaxed fetal position with your knees bent. Place a pillow between your legs, so that as you sleep, the top leg does not slide forward, causing a twist in your lower back. Consider also using a small pillow under your neck, so that your spine stays in alignment as much as possible.\u003C/p\u003E There is promising research on the effects of natural remedies such as ginger to reduce inflammation associated with pain. Ginger is a natural anti-inflammatory and can be especially helpful after you\u2019ve performed a strenuous activity. Simmer fresh ginger root slices in hot water for about 30 minutes, and enjoy as a cup of tea. Capsaicin, the active in ingredient in hot chili peppers, has also shown promise in reducing pain, and is available in both topical cream and oral supplement form. \u003Cp\u003EBefore you roll your eyes, and dismiss this idea, remember that the mind is a powerful thing. A small, recent study at the University of Manchester found that those who meditated when exposed to a physically painful laser had much higher pain thresholds. It\u2019s still up for debate whether meditation\u2019s effect is more of a placebo effect than anything, but even if it doesn\u2019t necessarily take away the pain, it allows the patient to focus the mind elsewhere during acute pain. And a little alone time never hurt anyone.\u003C/p\u003E \u003Cp\u003ERemember to focus on your small daily movements, such as how you pick up objects (always bend at the knees), how you carry your purse or backpack (make sure it's not too heavy and wear your backpack on both shoulders), invest in a new mattress and/or pillows that are firm and prevent your spine to curve, and add some gentle stretching to your morning routine.\u0026nbsp;\u003C/p\u003E",
+         "langhierarchyurl":null,
+         "reference":null,
+         "canonicalurl":"http://www.healthline.com/health-slideshow/7-ways-lessen-your-back-pain",
+         "hrlcontentid":null,
+         "pubdate":null,
+         "reviewedby":null,
+         "topics":null,
+         "domainids":null,
+         "description":null,
+         "categories":[  
+
+         ]
+      }
+   ]
+}
