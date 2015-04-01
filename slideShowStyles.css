@@ -134,7 +134,7 @@
 .mainContainer .slides .nextButton{
 	margin-left:320px;
 }
-.mainContainer .slides .nextButton img{
+.mainContainer .slides .nextButton .pixelTracking{
 	width:80px;
 	height:400px;
 }
