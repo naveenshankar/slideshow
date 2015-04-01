@@ -4,7 +4,25 @@
 	margin:auto;
 	border: 1px solid #000;
 	border-radius: 10px;
-	background-color:#A39E8F;
+	background-color:#8F95A3;
+}
+.mainContainer .slideMenu{
+	display:none;
+	height:75px;
+	background-color:black;
+	width:800px;
+	margin:auto;
+}
+.mainContainer .slideMenu .sortLabel,.mainContainer .slideMenu .sortOptions{
+	color: white;
+  	text-align: center;
+  	padding: 5px;
+}
+.mainContainer .slideMenu .defaultSort,.mainContainer .slideMenu .alphaSort{
+	display:inline-block;
+	color:white;
+	text-align: center;
+	padding: 5px 10px;
 }
 .mainContainer .health-summary{
 	text-align: center;
@@ -12,27 +30,36 @@
 	font-weight: bold;
 	font-style: italic;
 }
-.mainContainer .sliderControls{
+.mainContainer .slideControls{
 	margin: auto;
 	width: 800px;
 	height: 45px;
 	background-color: #877BC0;
 }
-.mainContainer .sliderControls .settings{
+.mainContainer .slideControls .settings{
 	float:right;
 	width: 50px;
 	height: 100%;
 }
-.mainContainer .sliderControls .slideInformation{
+.mainContainer .slideControls .slideInformation{
 	float:left;
-	width: 100px;
+	width: 200px;
 	height: 100%;
+}
+.mainContainer .slideControls .slideStatus{
+	display: inline;
+  	padding-left: 20px;
 }
 .mainContainer .slideshow{
 	height: 400px;
 	width: 800px;
 	margin: auto;
 	margin-bottom: 30px;
+	-webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+    box-shadow: 5px 5px 10px 0px;
 }
 .mainContainer li{
 	height:100%;
@@ -44,11 +71,12 @@
 	padding:0px;
 	height:100%;
 	display:inline-block;
+	background-color: lightblue;
 }
-.mainContainer .slides .active{
+.mainContainer .active{
 	display:block;
 }
-.mainContainer .slides .inactive{
+.mainContainer .inactive{
 	display:none;
 }
 .mainContainer .slides .imageHolder{
@@ -60,7 +88,37 @@
 	display: inline-block;
 	background-color: #1E1F28;
 	height: 100%;
-	box-shadow: 0px 0px 5px 10px #A0A9BE inset;
+	box-shadow: 0px 0px 5px 10px #5E625A inset;
+	vertical-align: top;
+}
+.mainContainer .slideDescription .slideContent{
+	position: absolute;
+	height: 400px;
+	width: 400px;
+	z-index: 100;
+}
+.mainContainer .slideDescription .slideTitle{
+	margin:35px;
+	color:white;
+	text-align: center;
+}
+.mainContainer .slideDescription p{
+	width: 350px;
+	padding: 20px 10px 20px 30px;
+	color: whitesmoke;
+	position: absolute;
+	height: 220px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	z-index: 101;
+}
+.mainContainer .slideDescription p span{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px !important;
+    line-height: 16px;
+}
+.mainContainer .slideDescription a{
+	color: green;
 }
 .mainContainer .slides img{
 	width: 400px;
@@ -76,6 +134,10 @@
 .mainContainer .slides .nextButton{
 	margin-left:320px;
 }
+.mainContainer .slides .nextButton img{
+	width:80px;
+	height:400px;
+}
 .mainContainer .slides .prevButton:hover,.mainContainer .slides .nextButton:hover{
 	opacity: 0.4;
 	background-color:black;
@@ -84,12 +146,21 @@
 }
 
 /* OVERRIDES FOR FONT-AWESOME ICONS  */
+.fa-toggle-off,.fa-toggle-on{
+	cursor:pointer;
+}
+.slideDescription .fa-spin,.slides .fa-spin{
+	position: absolute;
+    margin-left: 12%;
+    margin-top: 12%;
+    color:white;
+}
 .fa-info,.fa-cog {
 	margin-top: 10px;
 	margin-left: 20px;
 	color:black;
 }
-.fa-cog:hover {
+.fa-cog:hover,.open .fa-cog{
 	color:white;
 	cursor:pointer;
 }
