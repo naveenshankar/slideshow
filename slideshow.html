@@ -9,40 +9,36 @@
 </head>
 <body>
 	<div class="mainContainer">
-		<div class="health-summary">
+		<div class="health-summary" id="health-summary">
+			<script id="slideSummaryTemplate" type="text/x-handlebars-template">
+				{{this/summary}}
+			</script>
 		</div>
-		<div class="sliderControls">
+		<div class="slideControls">
 			<div class="slideInformation">
 				<i class="fa fa-info"></i>
+				<div class="slideStatus">
+				</div>
 			</div>
 			<div class="settings">
 				<i class="fa fa-cog"></i>
 			</div>
 		</div>
+		<div class="slideMenu">
+			<div class="sortLabel"> Sort By </div>
+			<div class="sortOptions">
+				<div class="defaultSort" >Default</div>
+				<i class="fa fa-toggle-off"></i>
+				<div class="alphaSort" >Alpha</div>
+			</div>
+		</div>
 		<div class="slideshow">
-		  <ul class="slides" id="slides">
-		    <!-- li class="active">
-		    	<div class="prevButton">
-		    		<i class="fa fa-chevron-left"></i>
-		    	</div>
-		    	<div class="imageHolder">
-		      		<img src="http://www.healthline.com/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_1.jpg" alt="healthline">
-		     	</div>
-				<div class="nextButton">
-					<i class="fa fa-chevron-right"></i>
-				</div>
-		    </li>
-		    <li class="inactive">
-		    	<div class="prevButton">
-		    		<i class="fa fa-chevron-left"></i>
-		    	</div>
-		    	<div class="imageHolder">
-		      		<img src="http://www.healthline.com/images/slideshow/back_pain_home_remedies/285x285_Back_Pain_2.jpg" alt="healthline">
-		     	</div>
-				<div class="nextButton">
-					<i class="fa fa-chevron-right"></i>
-				</div>
-		    </li -->
+		    <ul class="slides" id="slides"><i class="fa fa-refresh fa-spin fa-3x fa-fw margin-bottom"></i>
+		    </ul><div class="slideDescription" id="slideDescription"><i class="fa fa-refresh fa-spin fa-3x fa-fw margin-bottom"></i><div class="slideContent" id="slideContent"></div>
+
+		    <script id="slideDescriptionTemplate" type="text/x-handlebars-template">
+		    <div class="slideTitle">{{this/title}}</div>{{this/body}}
+		   	</script>
 
 		    <script id="slideTemplate" type="text/x-handlebars-template">
 		    	{{#each this}}
@@ -59,14 +55,11 @@
 				    </li>
 			    {{/each}}
 		    </script>
-
-		  </ul><div class="slideDescription"></div>
 		</div>
 	</div>
 	<script type="text/javascript"  src="jquery-1.9.1.js"></script>
 	<script type="text/javascript"  src="handlebars.js"></script>
 	<script type="text/javascript"  src="slideShowMock.json"></script>
-	<script type="text/javascript"  src="slideShowUtils.js"></script>
 	<script type="text/javascript" defer src="slideShowMain.js"></script>
 </body>
 </html>
